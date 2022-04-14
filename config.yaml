@@ -3,7 +3,7 @@ settings:
   url: 'https://status.incunabula.be' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
-  collectResponseTimes: true # collects avg response times from CRON locations
+  collectResponseTimes: true # collects avg response times from CRON location
 
   allmonitorsOperational: 'All Systems Operational'
   notAllmonitorsOperational: 'Not All Systems Operational'
