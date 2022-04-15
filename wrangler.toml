@@ -7,7 +7,7 @@ compatibility_date = "2021-07-23"
 
 [triggers]
 #crons = ["* * * * *"]
-crons = ["*/4 * * * *"]
+crons = ["*/15 * * * *"]
 
 [site]
 bucket = "out"
