@@ -17,7 +17,7 @@ settings:
 monitors:
   - id: tatooine-incunabula-be # unique identifier
     name: tatooine.incunabula.be
-    description: 'Serverless on CF Pages' # default=empty
+    description: 'Running on a Raspberry Pi 4 (Loppem)' # default=empty
     url: 'https://tatooine.incunabula.be/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -26,7 +26,7 @@ monitors:
 
   - id: www-incunabula-be
     name: www.incunabula.be
-    description: 'Raspi4 @ Loppem'
+    description: 'Serverless with Cloudflare Pages'
     url: 'https://www.incunabula.be'
     method: GET
     expectStatus: 200
